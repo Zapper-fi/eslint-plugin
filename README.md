@@ -7,13 +7,13 @@ Ethereum addresses must be lowercased
 You'll first need to install [ESLint](https://eslint.org/):
 
 ```sh
-npm i eslint --save-dev
+pnpm i eslint --save-dev
 ```
 
 Next, install `eslint-plugin-ethereum-address`:
 
 ```sh
-npm install eslint-plugin-ethereum-address --save-dev
+pnpm install eslint-plugin-ethereum-address --save-dev
 ```
 
 ## Usage
