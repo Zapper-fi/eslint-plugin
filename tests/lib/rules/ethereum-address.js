@@ -8,7 +8,7 @@
 // Requirements
 //------------------------------------------------------------------------------
 
-const { rule, name } = require('../../../lib/rules/ethereum-address');
+const rule = require('../../../lib/rules/ethereum-address');
 const RuleTester = require('eslint').RuleTester;
 
 //------------------------------------------------------------------------------
@@ -16,7 +16,7 @@ const RuleTester = require('eslint').RuleTester;
 //------------------------------------------------------------------------------
 
 const ruleTester = new RuleTester();
-ruleTester.run(name, rule, {
+ruleTester.run('ethereum-address-lowercase', rule, {
   valid: [
     '0xe27bff97ce92c3e1ff7aa9f86781fdd6d48f5ee9',
     'test(0xe27bff97ce92c3e1ff7aa9f86781fdd6d48f5ee9)',
