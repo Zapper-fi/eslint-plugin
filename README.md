@@ -1,6 +1,6 @@
-# eslint-plugin-ethereum-address
+# eslint-plugin-zapper
 
-Ethereum addresses must be lowercased
+Zapper.fi's set of custom Eslint rules.
 
 ## Installation
 
