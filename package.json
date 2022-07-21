@@ -1,5 +1,5 @@
 {
-  "name": "@zapper-fi/eslint-plugin-ethereum-address",
+  "name": "@zapper-fi/eslint-plugin-zapper",
   "version": "1.0.0",
   "description": "Ethereum addresses must be lowercased",
   "keywords": [
