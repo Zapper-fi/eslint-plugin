@@ -1,6 +1,6 @@
 # eslint-plugin-zapper
 
-Zapper.fi's set of custom Eslint rules.
+Zapper.fi's set of custom ESLint rules.
 
 ## Installation
 
