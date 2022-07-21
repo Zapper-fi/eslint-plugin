@@ -4,6 +4,13 @@
 
 [1]: https://www.npmjs.com/package/@zapper-fi/eslint-plugin-zapper?activeTab=versions
 
+## [1.3.0](https://github.com/Zapper-fi/eslint-plugin-zapper/compare/v1.2.0...v1.3.0) (2022-07-21)
+
+
+### Features
+
+* **package:** Update package name and add template literal ([89e8a57](https://github.com/Zapper-fi/eslint-plugin-zapper/commit/89e8a57099bf129e98c038744a05e367a048b90e))
+
 ## [1.2.0](https://github.com/Zapper-fi/eslint-plugin-zapper/compare/v1.1.0...v1.2.0) (2022-07-21)
 
 
