@@ -4,6 +4,13 @@
 
 [1]: https://www.npmjs.com/package/@zapper-fi/eslint-plugin-zapper?activeTab=versions
 
+## [1.1.0](https://github.com/Zapper-fi/eslint-plugin-zapper/compare/v1.0.0...v1.1.0) (2022-07-21)
+
+
+### Features
+
+* **package:** Change package name ([fa9dee2](https://github.com/Zapper-fi/eslint-plugin-zapper/commit/fa9dee258ba7df71139b7d545ff6320502f058ca))
+
 ## 1.0.0 (2022-07-21)
 
 
