@@ -9,6 +9,9 @@ jobs:
   release-please:
     name: Release
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
 
     steps:
       - uses: google-github-actions/release-please-action@v3
@@ -50,6 +53,15 @@ jobs:
           pnpm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        if: ${{ steps.release.outputs.release_created }}
+
+      - name: Publish to Github packages
+        run: |
+          echo "//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}" > .npmrc
+          npm config set registry https://npm.pkg.github.com
+          npm publish
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         if: ${{ steps.release.outputs.release_created }}
 
       - name: Fetch Release
